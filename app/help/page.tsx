@@ -5,8 +5,8 @@ import type { Metadata } from 'next';
 import faqData from '../../scripts/faq-data.json';
 
 export const metadata: Metadata = {
-  title: 'ヘルプ - ワンダーランド東京 FAQ AIチャットボット',
-  description: 'ワンダーランド東京 FAQ AIチャットボットの使い方と技術情報',
+  title: 'ヘルプ - FAQ AI Chat',
+  description: 'FAQ AI Chat の使い方と技術情報',
 };
 
 export default function HelpPage() {
@@ -23,17 +23,17 @@ export default function HelpPage() {
   };
 
   return (
-    <div className="flex flex-col min-h-screen bg-gray-50">
+    <div className="flex flex-col min-h-screen" style={{ backgroundColor: 'var(--background)' }}>
       <Header />
       <main className="flex-1">
-        <div className="container mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-8">
+        <div className="container mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-8">
 
         {/* メインコンテンツ */}
-        <div className="bg-white rounded-lg shadow-sm p-6 sm:p-8 space-y-8">
+        <div className="rounded-lg p-6 sm:p-8 space-y-8" style={{ backgroundColor: 'var(--background)' }}>
           {/* タイトル */}
           <div className="border-b pb-4">
-            <h1 className="text-3xl font-bold text-gray-900 mb-2">
-              ワンダーランド東京 FAQ AIチャットボット
+            <h1 className="text-2xl font-bold text-gray-900 mb-2">
+              FAQ AI Chat
             </h1>
             <p className="text-sm text-red-600 font-medium">
               ※ 本サイトは技術検証用のデモアプリケーションです。ワンダーランド東京は架空のテーマパークです。

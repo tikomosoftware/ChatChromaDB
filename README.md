@@ -1,4 +1,6 @@
-# ワンダーランド東京 FAQ AIチャットボット（技術検証用）
+# FAQ AI Chat（技術検証用）
+
+![version](https://img.shields.io/badge/version-1.1.0-blue)
 
 RAG（Retrieval-Augmented Generation）技術を使用したFAQ AIチャットボット。架空のテーマパーク「ワンダーランド東京」のFAQ情報を学習データとして、来訪者の質問に自動で回答するシステムの技術検証プロジェクトです。
 

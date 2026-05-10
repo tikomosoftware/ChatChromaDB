@@ -95,11 +95,11 @@ export default function LlmComparePage() {
   };
 
   return (
-    <div className="flex flex-col min-h-screen bg-gray-50">
+    <div className="flex flex-col min-h-screen" style={{ backgroundColor: 'var(--background)' }}>
       <Header />
       <main className="flex-1">
         <div className="container mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-8">
-          <div className="bg-white rounded-lg shadow-sm p-6 sm:p-8">
+          <div className="rounded-lg p-6 sm:p-8" style={{ backgroundColor: 'var(--background)' }}>
             {/* タイトル */}
             <div className="border-b pb-4 mb-6">
               <h1 className="text-2xl font-bold text-gray-900 mb-1">
